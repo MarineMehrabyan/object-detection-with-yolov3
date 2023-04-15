@@ -7,7 +7,9 @@ We load the pre-trained YOLOv3 model, which is stored in yolov3.weights and yolo
 You can __download the yolov3.weights and yolov3.cfg files__ from the official YOLO website or from the Darknet GitHub repository. Here are the download links:
 
 ___yolov3.weights___: https://pjreddie.com/media/files/yolov3.weights
+
 ___yolov3.cfg___: https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
+
 Note that these files are quite large (237 MB for yolov3.weights and 8 KB for yolov3.cfg). Also, be sure to read and comply with the license terms for these files.
 
 _____Dependencies_____
