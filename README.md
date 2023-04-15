@@ -4,6 +4,11 @@ This code uses the YOLOv3 (You Only Look Once version 3) model to detect objects
 
 We load the pre-trained YOLOv3 model, which is stored in yolov3.weights and yolov3.cfg, because it is a state-of-the-art deep learning model designed for object detection tasks. YOLO (You Only Look Once) is a popular object detection model that can detect multiple objects in an image and localize them by drawing bounding boxes around them. The model is pre-trained on a large dataset of images and has learned to recognize a wide variety of objects such as cars, people, animals, and more. By using this pre-trained model, we can avoid the time-consuming process of training our own object detection model from scratch, and instead leverage the knowledge and expertise of the YOLOv3 developers.
 
+You can __download the yolov3.weights and yolov3.cfg files__ from the official YOLO website or from the Darknet GitHub repository. Here are the download links:
+
+___yolov3.weights___: https://pjreddie.com/media/files/yolov3.weights
+___yolov3.cfg___: https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
+Note that these files are quite large (237 MB for yolov3.weights and 8 KB for yolov3.cfg). Also, be sure to read and comply with the license terms for these files.
 
 _____Dependencies_____
 This code uses the following Python libraries:
